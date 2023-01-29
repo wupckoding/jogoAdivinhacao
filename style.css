@@ -3,7 +3,67 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+:root {
+  font-size: 62.5%;
+}
 body {
   background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 110vh;
+}
+
+main {
+  background: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: min(43.8rem, 90%);
+  padding: 4.8rem 6.4rem 6.4rem;
+  margin: -1.2rem;
+  height: 27.3rem;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 2.4rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+main p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  margin-top: 1.6rem;
+
+  text-align: center;
+
+  color: rgba(52, 53, 91, 0.8);
+}
+
+button {
+  padding: 16px;
+  text-align: center;
+  margin-top: 4.8rem;
+  background: #7879f1;
+  border-radius: 0px 4px 4px 0px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* NEUTRAL/White */
+
+  color: #ffffff;
+  overflow: none;
 }
