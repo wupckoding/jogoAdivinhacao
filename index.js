@@ -1,1 +1,2 @@
-alert(test);
+console.log("est");
+alert("oii");
