@@ -14,6 +14,10 @@ body {
   height: 110vh;
 }
 
+.hide {
+  display: none;
+}
+
 main {
   background: #ffffff;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
@@ -25,6 +29,7 @@ main {
   text-align: center;
 }
 
+/* screen 1 */
 main h1 {
   font-size: 2.4rem;
   font-family: "DM Sans";
@@ -62,6 +67,7 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
+  cursor: pointer;
   /* identical to box height */
 
   /* NEUTRAL/White */
@@ -69,9 +75,29 @@ button {
   color: #ffffff;
 }
 
+button:hover {
+  background-color: #4f4fb6;
+}
+
 main input {
-  width: 4.3rem;
+  width: 5.3rem;
   padding: 1.6rem;
   background: #dce2e9;
   border-radius: 4px 0px 0px 4px;
+}
+
+/*screen2 */
+
+h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #34355B;
+}
+
+.btn2 {
+  margin-top: 3.3rem;
+  border-radius: 0.4rem;
 }
